@@ -10,7 +10,7 @@ from optparse import OptionParser
 from matplotlib.figure import Figure
 from scipy.optimize import leastsq
 import math 
-import slalib
+import slalib       # For Degrees/Arcmin/Arcsec to Radians, and Hour/Min/Sec to Radians
 import numpy as np
 
 import matplotlib
